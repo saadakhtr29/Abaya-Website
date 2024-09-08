@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 248, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.message {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login button {
+    background-color: #4267B2;
+    margin: 5px 0;
+}
+
+#loginWithGoogle {
+    background-color: #DB4437;
+}
+
+#loginWithApple {
+    background-color: #000;
+}
+
+.signup-form, .forgot-password-form {
+    display: none;
+}
